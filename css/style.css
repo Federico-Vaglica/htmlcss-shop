@@ -4,7 +4,9 @@
     box-sizing: border-box;
 }
 
-
+body {
+    background-color: #d3d3d3;
+}
 
 /*.container {
     width:350px;
@@ -33,6 +35,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  background-color: white;
 }
 
 .containerIphone {
