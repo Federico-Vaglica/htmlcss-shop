@@ -3,3 +3,80 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
+
+/*.container {
+    width:350px;
+    height:500px;
+    background-color:green;
+}
+*/
+.mainContainer {
+    margin: auto;
+    width: 80%;
+}
+
+.container {
+  height: 450px;
+  width: 280px;
+  border: 1px solid black;
+  margin: 1px;
+  position: relative;
+  background: lightgreen;
+  left: 20px;
+  display: inline-block;
+}
+
+.container1 {
+  height: 450px;
+  width: 280px;
+  border: 1px solid black;
+  margin: 1px;
+  position: relative;
+  background: lightblue;
+  left: 20px;
+  display: inline-flex;
+}
+
+.containerIpad {
+  height: 450px;
+  width: 280px;
+  border: 1px solid black;
+  margin: 1px;
+  position: relative;
+  left: 20px;
+  display: inline-block;
+  background-image: url(../img/ipad1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.containerIphone {
+  height: 450px;
+  width: 280px;
+  border: 1px solid black;
+  margin: 1px;
+  position: relative;
+  left: 20px;
+  display: inline-block;
+  background-image: url(../img/iphone.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.containerHeadPhone {
+  height: 450px;
+  width: 280px;
+  border: 1px solid black;
+  margin: 1px;
+  position: relative;
+  left: 20px;
+  display: inline-block;
+  background-image: url(../img/headPhone1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
