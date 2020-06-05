@@ -8,12 +8,7 @@ body {
     background-color: #d3d3d3;
 }
 
-/*.container {
-    width:350px;
-    height:500px;
-    background-color:green;
-}
-*/
+
 
 /*non riesco a centrare il maincontainer alla pagina credo il problema si qui */
 .mainContainer {
@@ -22,8 +17,8 @@ body {
 }
 
 
-/*Qui sotto le tre diverse classi per i 3 diversi container*/
-.containerIpad {
+/*Qui sotto una sola classe con 3 diversi selettori avanzati */
+.container {
   height: 450px;
   width: 280px;
   border: 1px solid black;
@@ -31,39 +26,22 @@ body {
   position: relative;
   left: 20px;
   display: inline-block;
-  background-image: url(../img/ipad1.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   background-color: white;
 }
 
-.containerIphone {
-  height: 450px;
-  width: 280px;
-  border: 1px solid black;
-  margin: 1px;
-  position: relative;
-  left: 20px;
-  display: inline-block;
-  background-image: url(../img/iphone.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+.mainContainer .container:nth-child(1) {
+    background-image: url(../img/ipad1.png);
 }
 
-.containerHeadPhone {
-  height: 450px;
-  width: 280px;
-  border: 1px solid black;
-  margin: 1px;
-  position: relative;
-  left: 20px;
-  display: inline-block;
-  background-image: url(../img/headPhone1.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+.mainContainer .container:nth-child(2){
+    background-image: url(../img/iphone.jpg);
+}
+
+.mainContainer .container:nth-child(3) {
+    background-image: url(../img/headPhone1.jpg);
 }
 
 /*Qui i div per i blocchi in absolute*/
@@ -105,6 +83,6 @@ img {
 }
 
 
-.containerIpad:hover img {
+.container:hover img {
     display:block;
 }
